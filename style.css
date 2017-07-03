@@ -1,0 +1,140 @@
+body {
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  background: url("images/fonback.png"); }
+  body p {
+    color: #000;
+    font-size: 12px; }
+  body .wrap {
+    display: block;
+    padding: 0;
+    background: #fff url(images/FFback3.png) no-repeat;
+    background-size: 100%; }
+    body .wrap .navbar-top {
+      height: 20px;
+      width: 300px; }
+      body .wrap .navbar-top ul {
+        list-style-type: none;
+        float: none; }
+        body .wrap .navbar-top ul li {
+          float: left;
+          padding: 0 4px 0 10px;
+          background: url("images/black.png") no-repeat 0 6px; }
+          body .wrap .navbar-top ul li a {
+            font-size: 10px;
+            color: #fff; }
+    body .wrap .logo {
+      margin-bottom: 20px; }
+      @media screen and (max-width: 1045px) {
+        body .wrap .logo {
+          margin-bottom: 10px; }
+          body .wrap .logo img {
+            width: 100%; } }
+      @media screen and (max-width: 767px) {
+        body .wrap .logo img {
+          display: none; }
+        body .wrap .logo .logo-img {
+          display: block;
+          width: 50%;
+          margin: 0 auto; } }
+    body .wrap .navbar-default {
+      background: url(images/navbar.png) no-repeat;
+      height: 80px;
+      border: none;
+      margin: 0 auto; }
+      @media screen and (max-width: 767px) {
+        body .wrap .navbar-default {
+          background: none; } }
+      body .wrap .navbar-default ul {
+        padding-left: 10px; }
+        @media screen and (max-width: 767px) {
+          body .wrap .navbar-default ul .navbar-nav {
+            margin: 0; } }
+        body .wrap .navbar-default ul li {
+          padding: 15px 10px 10px 10px;
+          background: url(images/brown.png) no-repeat 0 26px; }
+          @media screen and (max-width: 767px) {
+            body .wrap .navbar-default ul li {
+              background-color: #000; } }
+          body .wrap .navbar-default ul li a {
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 15px 0 10px 5px; }
+            @media screen and (max-width: 1045px) {
+              body .wrap .navbar-default ul li a {
+                font-size: 14px; } }
+            body .wrap .navbar-default ul li a:hover {
+              color: #FF9900; }
+    body .wrap .container-block {
+      display: block;
+      padding: 60px 0 0 5px; }
+      body .wrap .container-block .container-block-center {
+        padding: 0 10px 0 5px; }
+        body .wrap .container-block .container-block-center h1 {
+          font-weight: normal;
+          text-transform: uppercase;
+          font-size: large;
+          margin-top: 40px; }
+        body .wrap .container-block .container-block-center h2 {
+          width: 142px;
+          font-size: small;
+          font-weight: bold;
+          text-transform: uppercase;
+          color: #000;
+          border-bottom: 1px solid #990099; }
+        body .wrap .container-block .container-block-center h3 {
+          padding-left: 14px;
+          padding-bottom: 10px;
+          font-size: 12px;
+          font-weight: bold;
+          background: url(images/bulletcutback1.png) no-repeat;
+          background-position-y: -8px;
+          color: #000;
+          text-decoration: none; }
+        body .wrap .container-block .container-block-center .container-block-content {
+          padding: 10px 5px; }
+      body .wrap .container-block .container-block-right {
+        padding-top: 265px;
+        background: url("images/FFbackright.png") no-repeat;
+        background-position-x: right; }
+        @media screen and (max-width: 970px) {
+          body .wrap .container-block .container-block-right {
+            background: none;
+            padding-top: 100px; } }
+        body .wrap .container-block .container-block-right address {
+          background: url("images/FFback-right.png") no-repeat;
+          padding-left: 50px; }
+          body .wrap .container-block .container-block-right address span {
+            padding-left: 10px; }
+      body .wrap .container-block address {
+        padding-left: 20px; }
+      body .wrap .container-block ul {
+        list-style-type: none;
+        padding: 0; }
+        body .wrap .container-block ul span li {
+          line-height: 22px;
+          background: none; }
+          body .wrap .container-block ul span li a {
+            font-size: 13px;
+            text-transform: uppercase;
+            padding-top: 8px;
+            padding-left: 20px; }
+        body .wrap .container-block ul li {
+          background: url("images/bulletcutback1.png") no-repeat 0 5px;
+          padding-top: 10px; }
+          body .wrap .container-block ul li a {
+            color: #000;
+            text-decoration: none;
+            padding-left: 20px; }
+            body .wrap .container-block ul li a:hover {
+              color: #FF9900; }
+    body .wrap .footer {
+      display: block;
+      height: 120px;
+      background: url("images/footer.png"); }
+    body .wrap .row {
+      margin-right: 0;
+      margin-left: 0; }
+    body .wrap .col-lg-1, body .wrap .col-lg-10, body .wrap .col-lg-11, body .wrap .col-lg-12, body .wrap .col-lg-2, body .wrap .col-lg-3, body .wrap .col-lg-4, body .wrap .col-lg-5, body .wrap .col-lg-6, body .wrap .col-lg-7, body .wrap .col-lg-8, body .wrap .col-lg-9, body .wrap .col-md-1, body .wrap .col-md-10, body .wrap .col-md-11, body .wrap .col-md-12, body .wrap .col-md-2, body .wrap .col-md-3, body .wrap .col-md-4, body .wrap .col-md-5, body .wrap .col-md-6, body .wrap .col-md-7, body .wrap .col-md-8, body .wrap .col-md-9, body .wrap .col-sm-1, body .wrap .col-sm-10, body .wrap .col-sm-11, body .wrap .col-sm-12, body .wrap .col-sm-2, body .wrap .col-sm-3, body .wrap .col-sm-4, body .wrap .col-sm-5, body .wrap .col-sm-6, body .wrap .col-sm-7, body .wrap .col-sm-8, body .wrap .col-sm-9, body .wrap .col-xs-1, body .wrap .col-xs-10, body .wrap .col-xs-11, body .wrap .col-xs-12, body .wrap .col-xs-2, body .wrap .col-xs-3, body .wrap .col-xs-4, body .wrap .col-xs-5, body .wrap .col-xs-6, body .wrap .col-xs-7, body .wrap .col-xs-8, body .wrap .col-xs-9 {
+      padding-left: 0;
+      padding-right: 0; }
